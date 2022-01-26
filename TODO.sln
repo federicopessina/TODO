@@ -6,13 +6,6 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TODO", "TODO.csproj", "{77B5388A-AC8E-4E79-AC46-1E2F72138604}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Screenshots", "Screenshots", "{310A6A1B-58AF-4E3B-8F19-377F3D43D9A2}"
-	ProjectSection(SolutionItems) = preProject
-		..\..\..\..\Downloads\TODOBugrtracker DetailsPage.jpeg = ..\..\..\..\Downloads\TODOBugrtracker DetailsPage.jpeg
-		..\..\..\..\Downloads\TODOBugtracker EditPage.jpeg = ..\..\..\..\Downloads\TODOBugtracker EditPage.jpeg
-		..\..\..\..\Downloads\TODOBugtracker IndexPage.jpeg = ..\..\..\..\Downloads\TODOBugtracker IndexPage.jpeg
-		..\..\..\..\Downloads\TODOBugtracker MainPage.jpeg = ..\..\..\..\Downloads\TODOBugtracker MainPage.jpeg
-		..\..\..\..\Downloads\TODOBugtracker SearchPage.jpeg = ..\..\..\..\Downloads\TODOBugtracker SearchPage.jpeg
-	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
