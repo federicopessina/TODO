@@ -4,7 +4,7 @@ Bugtracker WebApp ASP.NET MVC C#
 ## Main
 
 The Main 
-![Main](C:\Users\User\Desktop\coding\TODO\TODO\Screenshots\TODOBugrtracker DetailsPage.jpeg)
+![Main](https://github.com/federicopessina/TODO/blob/master/Screenshots/TODOBugtracker%20MainPage.jpeg)
 
 ## Index
 
