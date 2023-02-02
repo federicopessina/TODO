@@ -7,7 +7,7 @@ With a very minimalistic style, it gives the basic functionalities of a bugtrack
 
 The Main page does not display information to a malicious user that did not provide identification through login and password.
 
-![Main Imge](https://github.com/federicopessina/TODO/blob/master/Screenshots/TODOBugtracker%20MainPage.jpeg)
+![Main](https://github.com/federicopessina/TODO/blob/master/Screenshots/TODOBugtracker%20MainPage.jpeg)
 
 
 ## Index
@@ -18,25 +18,26 @@ It gives 3 options for each bug to fix or feature to implement:
 2) Details: for a read-only view of the characteristics
 3) Delete: when the job is done. However, these are not deleted totally from the program and there is a way to recover from a deletion.
 
-![Index Imge](https://github.com/federicopessina/TODO/blob/master/Screenshots/TODOBugtracker%20IndexPage.jpeg)
-
 ## Register
 
 Page to register a new User.
 
-![Index Imge](https://github.com/federicopessina/TODO/blob/master/Screenshots/TODOBugtracker%20IndexPage.jpeg)
+![CreatePage](https://github.com/federicopessina/TODO/blob/master/Screenshots/TODOBugtracker%20CreatePage.jpeg)
+![LoginPage](https://github.com/federicopessina/TODO/blob/master/Screenshots/TODOBugtracker%20LoginPage.jpeg)
+![RegisterConfirmationPage](https://github.com/federicopessina/TODO/blob/master/Screenshots/TODOBugtracker%20RegisterConfirmationPage.jpeg)
+![20RegisterNewAccountPage](https://github.com/federicopessina/TODO/blob/master/Screenshots/TODOBugtracker%20RegisterNewAccountPage.jpeg)
 
 ## Edit
 
-![Edit Imge](https://github.com/federicopessina/TODO/blob/master/Screenshots/TODOBugtracker%20EditPage.jpeg)
+![Edit](https://github.com/federicopessina/TODO/blob/master/Screenshots/TODOBugtracker%20EditPage.jpeg)
 
 ## Details
 
-![Details Imge](https://github.com/federicopessina/TODO/blob/master/Screenshots/TODOBugrtracker%20DetailsPage.jpeg)
+![Details](https://github.com/federicopessina/TODO/blob/master/Screenshots/TODOBugrtracker%20DetailsPage.jpeg)
 
 ## Search
 
-![Search Imge](https://github.com/federicopessina/TODO/blob/master/Screenshots/TODOBugtracker%20SearchPage.jpeg)
+![Search](https://github.com/federicopessina/TODO/blob/master/Screenshots/TODOBugtracker%20SearchPage.jpeg)
 
 
 # Technologies
