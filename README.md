@@ -9,7 +9,6 @@ The Main page does not display information to a malicious user that did not prov
 
 ![Main](https://github.com/federicopessina/TODO/blob/master/Screenshots/TODOBugtracker%20MainPage.jpeg)
 
-
 ## Index
 
 the Index page gives a list of all current bugs registered from the users. 
@@ -20,23 +19,28 @@ It gives 3 options for each bug to fix or feature to implement:
 
 ## Register
 
-Page to register a new User.
-
-![CreatePage](https://github.com/federicopessina/TODO/blob/master/Screenshots/TODOBugtracker%20CreatePage.jpeg)
-![LoginPage](https://github.com/federicopessina/TODO/blob/master/Screenshots/TODOBugtracker%20LoginPage.jpeg)
-![RegisterConfirmationPage](https://github.com/federicopessina/TODO/blob/master/Screenshots/TODOBugtracker%20RegisterConfirmationPage.jpeg)
+Register a new User with eMail and Password.
 ![20RegisterNewAccountPage](https://github.com/federicopessina/TODO/blob/master/Screenshots/TODOBugtracker%20RegisterNewAccountPage.jpeg)
+
+Receive a confirmation of the actual registration.
+![RegisterConfirmationPage](https://github.com/federicopessina/TODO/blob/master/Screenshots/TODOBugtracker%20RegisterConfirmationPage.jpeg)
+
+Login with your new Account.
+![LoginPage](https://github.com/federicopessina/TODO/blob/master/Screenshots/TODOBugtracker%20LoginPage.jpeg)
 
 ## Edit
 
+Make a new BugFix or Feature request.
 ![Edit](https://github.com/federicopessina/TODO/blob/master/Screenshots/TODOBugtracker%20EditPage.jpeg)
 
 ## Details
 
+Get details of the task.
 ![Details](https://github.com/federicopessina/TODO/blob/master/Screenshots/TODOBugrtracker%20DetailsPage.jpeg)
 
 ## Search
 
+Search from a list of bugs or search by name.
 ![Search](https://github.com/federicopessina/TODO/blob/master/Screenshots/TODOBugtracker%20SearchPage.jpeg)
 
 
@@ -44,6 +48,7 @@ Page to register a new User.
 
 ASP.NET Core | MVC | Entity Framework Object Relational Mapper (ORM) to generate the DB
 
+# Local Development
 In Package MAnager Console input the following commands:
 	update-database
 	Check in SQL Server Object Explorer if the DB is created
