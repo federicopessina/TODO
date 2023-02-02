@@ -20,6 +20,12 @@ It gives 3 options for each bug to fix or feature to implement:
 
 ![Index Imge](https://github.com/federicopessina/TODO/blob/master/Screenshots/TODOBugtracker%20IndexPage.jpeg)
 
+## Register
+
+Page to register a new User.
+
+![Index Imge](https://github.com/federicopessina/TODO/blob/master/Screenshots/TODOBugtracker%20IndexPage.jpeg)
+
 ## Edit
 
 ![Edit Imge](https://github.com/federicopessina/TODO/blob/master/Screenshots/TODOBugtracker%20EditPage.jpeg)
