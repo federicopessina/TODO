@@ -12,7 +12,7 @@ namespace TODO.Models
         public string BugDetail { get; set; }
         public Bug()
         {
-            // needs to be empty
+            // HACK Needs to be empty.
         }
     }
 }

@@ -32,3 +32,13 @@ It gives 3 options for each bug to fix or feature to implement:
 
 ![Search Imge](https://github.com/federicopessina/TODO/blob/master/Screenshots/TODOBugtracker%20SearchPage.jpeg)
 
+
+# Technologies
+
+ASP.NET Core | MVC | Entity Framework Object Relational Mapper (ORM) to generate the DB
+
+In Package MAnager Console input the following commands:
+	update-database
+	Check in SQL Server Object Explorer if the DB is created
+	
+
