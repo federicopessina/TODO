@@ -9,7 +9,7 @@ The //TODO App is a Bugtracker WebApp written in ASP.NET MVC and C#. With a mini
 ### Main Page
 The main page ensures security by not displaying information to unauthorized users who have not logged in with valid credentials.
 
-![Main](https://github.com/federicopessina/TODO/blob/master/Screenshots/TODOBugtracker%20MainPage.jpeg)
+<img src="https://github.com/federicopessina/TODO/blob/master/Screenshots/TODOBugtracker%20MainPage.jpeg" alt="Main" width="50%">
 
 ### Index Page
 The Index page lists all current bugs or feature requests submitted by users. Each item has three options:
@@ -19,25 +19,25 @@ The Index page lists all current bugs or feature requests submitted by users. Ea
 
 ### Register Page
 Register a new user with an email and password.
-![RegisterNewAccountPage](https://github.com/federicopessina/TODO/blob/master/Screenshots/TODOBugtracker%20RegisterNewAccountPage.jpeg)
+<img src="https://github.com/federicopessina/TODO/blob/master/Screenshots/TODOBugtracker%20RegisterNewAccountPage.jpeg" alt="RegisterNewAccountPage" width="50%">
 
 Receive confirmation upon successful registration.
-![RegisterConfirmationPage](https://github.com/federicopessina/TODO/blob/master/Screenshots/TODOBugtracker%20RegisterConfirmationPage.jpeg)
+<img src="https://github.com/federicopessina/TODO/blob/master/Screenshots/TODOBugtracker%20RegisterConfirmationPage.jpeg" alt="RegisterConfirmationPage" width="50%">
 
 Login using your new account credentials.
-![LoginPage](https://github.com/federicopessina/TODO/blob/master/Screenshots/TODOBugtracker%20LoginPage.jpeg)
+<img src="https://github.com/federicopessina/TODO/blob/master/Screenshots/TODOBugtracker%20LoginPage.jpeg" alt="LoginPage" width="50%">
 
 ### Edit Page
 Submit a new bug fix or feature request.
-![Edit](https://github.com/federicopessina/TODO/blob/master/Screenshots/TODOBugtracker%20EditPage.jpeg)
+<img src="https://github.com/federicopessina/TODO/blob/master/Screenshots/TODOBugtracker%20EditPage.jpeg" alt="Edit" width="50%">
 
 ### Details Page
 View detailed information about a specific bug or feature.
-![Details](https://github.com/federicopessina/TODO/blob/master/Screenshots/TODOBugrtracker%20DetailsPage.jpeg)
+<img src="https://github.com/federicopessina/TODO/blob/master/Screenshots/TODOBugrtracker%20DetailsPage.jpeg" alt="Details" width="50%">
 
 ### Search Page
 Search through the list of bugs or features by name.
-![Search](https://github.com/federicopessina/TODO/blob/master/Screenshots/TODOBugtracker%20SearchPage.jpeg)
+<img src="https://github.com/federicopessina/TODO/blob/master/Screenshots/TODOBugtracker%20SearchPage.jpeg" alt="Search" width="50%">
 
 ---
 
@@ -85,3 +85,8 @@ To set up the app locally:
 2. In the Package Manager Console, run:
    ```bash
    update-database
+3. Verify the database creation in SQL Server Object Explorer.
+Future Development
+Implement Unit Testing for critical features.
+Expand the search functionality to include advanced filters.
+Add role-based access control for enhanced security.
