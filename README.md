@@ -1,58 +1,87 @@
 # TODO
 
-The //TODO App is Bugtracker WebApp ASP.NET MVC WebApp written in C#.
-With a very minimalistic style, it gives the basic functionalities of a bugtracker that can be used in a real world working environment.
+The //TODO App is a Bugtracker WebApp written in ASP.NET MVC and C#. With a minimalistic style, it provides essential functionalities of a bug tracker suitable for real-world working environments.
 
-## Main
+---
 
-The Main page does not display information to a malicious user that did not provide identification through login and password.
+## Features
+
+### Main Page
+The main page ensures security by not displaying information to unauthorized users who have not logged in with valid credentials.
 
 ![Main](https://github.com/federicopessina/TODO/blob/master/Screenshots/TODOBugtracker%20MainPage.jpeg)
 
-## Index
+### Index Page
+The Index page lists all current bugs or feature requests submitted by users. Each item has three options:
+1. **Edit**: Update or add more information about the bug or feature.
+2. **Details**: View the characteristics in a read-only format.
+3. **Delete**: Mark the bug/feature as resolved. Deleted items can be recovered if needed.
 
-the Index page gives a list of all current bugs registered from the users. 
-It gives 3 options for each bug to fix or feature to implement:
-1) Edit: giving the opportunity of providing more information about the bug/feature
-2) Details: for a read-only view of the characteristics
-3) Delete: when the job is done. However, these are not deleted totally from the program and there is a way to recover from a deletion.
+### Register Page
+Register a new user with an email and password.
+![RegisterNewAccountPage](https://github.com/federicopessina/TODO/blob/master/Screenshots/TODOBugtracker%20RegisterNewAccountPage.jpeg)
 
-## Register
-
-Register a new User with eMail and Password.
-![20RegisterNewAccountPage](https://github.com/federicopessina/TODO/blob/master/Screenshots/TODOBugtracker%20RegisterNewAccountPage.jpeg)
-
-Receive a confirmation of the actual registration.
+Receive confirmation upon successful registration.
 ![RegisterConfirmationPage](https://github.com/federicopessina/TODO/blob/master/Screenshots/TODOBugtracker%20RegisterConfirmationPage.jpeg)
 
-Login with your new Account.
+Login using your new account credentials.
 ![LoginPage](https://github.com/federicopessina/TODO/blob/master/Screenshots/TODOBugtracker%20LoginPage.jpeg)
 
-## Edit
-
-Make a new BugFix or Feature request.
+### Edit Page
+Submit a new bug fix or feature request.
 ![Edit](https://github.com/federicopessina/TODO/blob/master/Screenshots/TODOBugtracker%20EditPage.jpeg)
 
-## Details
-
-Get details of the task.
+### Details Page
+View detailed information about a specific bug or feature.
 ![Details](https://github.com/federicopessina/TODO/blob/master/Screenshots/TODOBugrtracker%20DetailsPage.jpeg)
 
-## Search
-
-Search from a list of bugs or search by name.
+### Search Page
+Search through the list of bugs or features by name.
 ![Search](https://github.com/federicopessina/TODO/blob/master/Screenshots/TODOBugtracker%20SearchPage.jpeg)
 
+---
 
-# Technologies
+## Project Structure
 
-ASP.NET Core | MVC | Entity Framework Object Relational Mapper (ORM) to generate the DB
+### Key Files and Directories
+- **Program.cs**: Entry point of the application.
+- **Startup.cs**: Configures services and the app's middleware pipeline.
+- **TODO.csproj** & **TODO.sln**: Project and solution files for building the app.
+- **appsettings.json**: Configuration settings for the app.
+- **Areas/Identity/Pages/_ViewStart.cshtml**: View settings for Identity-related pages.
 
-# Local Development
-In Package MAnager Console input the following commands:
-	update-database
-	Check in SQL Server Object Explorer if the DB is created
+### Controllers
+- **BugsController.cs**: Handles CRUD operations for bugs and features.
+- **HomeController.cs**: Manages the main and static pages.
 
-# Future Development
-- UnitTesting
+### Data
+- **ApplicationDbContext.cs**: Database context using Entity Framework.
+- **Migrations/**: Scripts and snapshots for database schema evolution.
 
+### Models
+- **Bug.cs**: Represents a bug or feature request entity.
+- **ErrorViewModel.cs**: Model for error handling.
+
+### Views
+- **Views/Bugs/**: Contains views for bug management (Create, Edit, Delete, Details, Index, and Search).
+- **Views/Home/**: Views for the home and privacy pages.
+- **Views/Shared/**: Shared layouts and partial views (_Layout.cshtml, _LoginPartial.cshtml, etc.).
+
+### Static Assets
+- **wwwroot/**: Contains static files like CSS, JavaScript, and third-party libraries (Bootstrap, jQuery, etc.).
+
+---
+
+## Technologies Used
+- **ASP.NET Core**
+- **MVC (Model-View-Controller)**
+- **Entity Framework (ORM)**
+
+---
+
+## Local Development
+To set up the app locally:
+1. Open the solution in Visual Studio.
+2. In the Package Manager Console, run:
+   ```bash
+   update-database
