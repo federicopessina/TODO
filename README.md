@@ -24,6 +24,7 @@ Register a new user with an email and password.
 <img src="https://github.com/federicopessina/TODO/blob/master/Screenshots/TODOBugtracker%20RegisterNewAccountPage.jpeg" alt="RegisterNewAccountPage" width="50%">
 
 Receive confirmation upon successful registration.
+<br />
 <img src="https://github.com/federicopessina/TODO/blob/master/Screenshots/TODOBugtracker%20RegisterConfirmationPage.jpeg" alt="RegisterConfirmationPage" width="50%">
 
 Login using your new account credentials.
